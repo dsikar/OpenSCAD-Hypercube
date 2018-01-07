@@ -1,5 +1,5 @@
 # OpenSCAD-Hypercube
-Designing a [hypercube](http://www.sciencemag.org/news/2015/02/how-3d-print-hypercube) (lampshape, not 3d printer) with OpenSCAD
+Designing a [hypercube](http://www.sciencemag.org/news/2015/02/how-3d-print-hypercube) (lampshade, not 3d printer) with OpenSCAD
 
 * Tweak [source file](openscad/hypercube.scad)
 * Render
