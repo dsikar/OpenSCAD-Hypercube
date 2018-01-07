@@ -6,7 +6,7 @@ Designing a [hypercube](http://www.sciencemag.org/news/2015/02/how-3d-print-hype
 * Export to .stl
 * Print
 
-# How it works
+## How it works
 
 A blank lampshade is created
 
@@ -27,13 +27,13 @@ Had they been added the result would have been
 
 
 
-# Rendering
+## Rendering
 
 The .stl model is imported into Blender, where a light source is used to model projections and shadows.
 
 ![Blender cycles render](images/Hypercube-v0.1.png)
 
 
-# Todo
+## Todo
 
 * Make script more parametric
