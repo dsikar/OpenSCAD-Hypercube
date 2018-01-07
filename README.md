@@ -1,5 +1,5 @@
 # OpenSCAD-Hypercube
-Designing a hypercube with OpenSCAD  
+Designing a [hypercube](http://www.sciencemag.org/news/2015/02/how-3d-print-hypercube) (lampshape, not 3d printer) with OpenSCAD
 
 * Tweak [source file](openscad/hypercube.scad)
 * Render
@@ -11,3 +11,7 @@ Designing a hypercube with OpenSCAD
 Rendered with Blender using default light source.
 
 ![Blender cycles render](images/Hypercube-v0.1.png)
+
+# Todo
+
+* Make script more parametric
