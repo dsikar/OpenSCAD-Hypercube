@@ -28,7 +28,7 @@ Another example using a model for three light sources randomly filling in the gr
 
 ![AStudyInStupidity4](images/AStudyInStupidity4.png)
 
-And bowls which create less diffusion in theory.
+And bowls which create less light diffusion in theory.
 
 ![AStudyInStupidity9](images/AStudyInStupidity9.png)
 
@@ -48,4 +48,4 @@ The RGB Light Spheres
 
 ## Todo
 
-* Assign number to descriptively-named variables before passing to function
+* Assign numerical values to descriptively-named variables before passing to function
