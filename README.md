@@ -28,6 +28,9 @@ Another example using a model for three light sources randomly filling in the gr
 
 ![AStudyInStupidity4](images/AStudyInStupidity4.png)
 
+And bowls which create less diffusion in theory.
+
+![AStudyInStupidity9](images/AStudyInStupidity9.png)
 
 ## Rendering
 
@@ -38,6 +41,10 @@ The .stl model is imported into Blender, where a light source is used to model p
 The RGB Light Bowls
 
 ![LightBowls](images/LightBowls.png)
+
+The RGB Light Spheres
+
+![RGBSpheres](images/RGBSpheres.png)
 
 ## Todo
 
