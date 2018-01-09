@@ -33,7 +33,7 @@ module lightsource(gap,side,lsx,lsy,lsz,lampnumber,rows,cols) {
             ymax=side+(side*r)+(gap*r);
             // current square number, counting left to right, bottom to top
             arraypos = r*(rows)+i+1;
-            echo(arraypos);
+            // echo(arraypos);
             if(floor(lamp_vect[arraypos-1])==lampnumber) {
                 mypolyhedron(xmax,ymax,xmax,ymin,xmin,ymin,xmin,ymax,lsx,lsy,lsz);
             }
@@ -46,7 +46,10 @@ module lampshadeblank(radius,thickness,lampx,lampy,lampz) {
     difference() {
         sphere(radius, $fn=100);
         sphere(radius-(thickness/2), $fn=100);
-        cylinder(h = 100, r = 39, $fn = 100);
+        // if(multi==0) { // multiple light sources?
+        //     cylinder(h = 100, r = 39, $fn = 100);
+        // }
+        
     }
 }
 
@@ -58,6 +61,6 @@ module lampshade(lampnumber,gap,side,rows,cols,lsx,lsy,lsz,radius,thickness,lamp
 }
 
 
-lampshade(1,10,30,6,6,0,115,80,40,3,0,115,60);
-lampshade(2,10,30,6,6,230,115,80,40,3,230,115,60);
-lampshade(3,10,30,6,6,115,230,80,40,3,115,230,60);
+lampshade(1,10,30,6,6,0,115,60,40,3,0,115,60);
+lampshade(2,10,30,6,6,230,115,60,40,3,230,115,60);
+lampshade(3,10,30,6,6,115,230,60,40,3,115,230,60);
