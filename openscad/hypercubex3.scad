@@ -46,9 +46,9 @@ module lampshadeblank(radius,thickness,lampx,lampy,lampz) {
     difference() {
         sphere(radius, $fn=100);
         sphere(radius-(thickness/2), $fn=100);
-        // if(multi==0) { // multiple light sources?
+        //if(multi==0) { // multiple light sources?
         //     cylinder(h = 100, r = 39, $fn = 100);
-        // }
+        //}
         
     }
 }
