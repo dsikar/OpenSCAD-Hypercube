@@ -46,6 +46,12 @@ The RGB Light Spheres
 
 ![RGBSpheres](images/RGBSpheres.png)
 
+## Youtube videos showing counterotating hypercubes
+
+https://www.youtube.com/watch?v=XXxTkUtxEaU  
+  
+https://www.youtube.com/watch?v=5aCxEEicy8I
+
 ## Todo
 
 * Assign numerical values to descriptively-named variables before passing to function
