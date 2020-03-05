@@ -12,7 +12,7 @@ A blank lampshade is created
 
 ![Blank Lampshade](images/LampShadeBlank.png)
 
-Together with a light model consisting of projections and shadows, where the polyhedron bases are the projected lights, gaps between them are shadows, and common apexes converging to the light source
+Together with a light model consisting of projections and shadows, where the polyhedron bases are the projected light, gaps between them are shadows, and common apexes converging to the light source
 
 ![Light model](images/LightSource.png)
 
